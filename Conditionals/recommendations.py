@@ -1,15 +1,15 @@
 def main():
-    dificulty = input("Difficult or Casual? ")
+    difficulty = input("Difficult or Casual? ")
     player = input("Multiplayer or Single-player? ")
 
-    if dificulty == "Difficult":
+    if difficulty == "Difficult":
         if player == "Multiplayer":
             recommend("Poker")
         elif player == "Single-player":
             recommend("Klondike")
         else:
             print("Enter a valid number of players")
-    elif dificulty == "Casual":
+    elif difficulty == "Casual":
         if player == "Multiplayer":
             recommend("Hearts")
         elif player == "Single-player":
